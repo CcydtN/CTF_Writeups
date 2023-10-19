@@ -3,7 +3,7 @@ level: Medium
 
 > You can create the environment your own. Here are the two package you needed:
 > `pycryptodome decompyle3`
-> In the repository, I use `nix` to setup, but others tools should able to do the same thing.
+> In the repository, I use `nix` to set up, but others tools should be able to do the same thing.
 
 ## 1. Decompile pyc
 This problem contain a `pyc` file, and required a bit reverse engineering.
@@ -76,7 +76,7 @@ Because random use a fixed seed, `init` and `target` have the same order for eac
 -> `initialize` always form the same tree.
 
 To solve the puzzle, we need to have the correct `validatedkey`
--> achieve by enter the encoded path of `target[turn]` for i form 0 to 999
+-> achieve by enter the encoded path of `target[turn]` for `turn` form 0 to 999
 -> can get by writing a new function, dfs over the tree
 ```python
 answer = {}
@@ -91,5 +91,5 @@ def solve(root, val = ""):
 
 ## Putting piece together
 By putting the `solve` function and modify the `submit` function.
-The flag finally be obtain.
+The flag finally be obtained.
 > The code is in `solution.py`
