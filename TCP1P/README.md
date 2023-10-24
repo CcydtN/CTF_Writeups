@@ -1,8 +1,8 @@
 # TCP1P_2023
+https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+
 My score: 97th place, 819 point
 
-https://ctf.tcp1p.com/users/403
-https://ctf.tcp1p.com/teams/182
 
 Solves
 | Challenge | Category | Value | Time |
