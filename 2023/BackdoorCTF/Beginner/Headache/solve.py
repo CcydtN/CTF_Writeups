@@ -9,5 +9,5 @@ header = bytes(png_header)
 
 new_data = header + bytes_data[len(png_header) :]
 
-with open("test.png", "wb") as file:
+with open("solve.png", "wb") as file:
     file.write(new_data)
